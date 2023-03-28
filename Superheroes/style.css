@@ -1,0 +1,259 @@
+.encabezado {
+    background-color: #1CD1B0;
+    padding: 10px;
+    margin-left: 0%;
+    margin: 0px;
+    width: 99%;
+}
+
+
+
+h1 {
+    top: 43%;
+    margin-left: 0%;
+    width: 97.6%;
+    background-color: #00669F;
+    font-size: 200%;
+    padding: 2%;
+    margin: 0%;
+    width: 99%;
+}
+
+.seccion1 {
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado2 {
+    width: 101.5%;
+    background-color: #001D2D;
+    margin-top: 1%;
+    margin-bottom: 0%;
+
+}
+
+.items {
+    color: white;
+    margin-left: 80%;
+    margin-top: -3%;
+    word-spacing: 15px;
+
+}
+
+.cartas {
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 15%;
+    flex-wrap: wrap;
+
+}
+
+.box1 {
+    background-color: #F3F3F3;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    float: left;
+    overflow: hidden;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 25%;
+}
+
+.box2 {
+    background-color: #F3F3F3;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    float: left;
+    overflow: hidden;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 25%;
+}
+
+.box3 {
+    background-color: #F3F3F3;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    float: left;
+    overflow: hidden;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 25%;
+}
+
+.box4 {
+    background-color: #F3F3F3;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    float: left;
+    overflow: hidden;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 25%;
+}
+
+.fondobatman {
+    width: 100%;
+}
+
+.batman {
+    width: 30%;
+    height: auto;
+    margin-top: -17%;
+    border-radius: 100%;
+}
+
+.corazon1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 33%;
+    right: 78%;
+}
+
+.fondoharley {
+    width: 100%;
+}
+
+.harley {
+    width: 30%;
+    height: auto;
+    margin-top: -17%;
+    border-radius: 100%;
+
+}
+
+.corazon2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 33%;
+    left: 44%;
+}
+
+.fondomujermaravilla {
+    width: 100%;
+}
+
+.mujermaravilla {
+    width: 30%;
+    height: auto;
+    margin-top: -20%;
+
+}
+
+.corazon3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 33%;
+    left: 69%;
+}
+
+.fondosuperman {
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.superman {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: -14%;
+
+}
+
+.corazon4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 120%;
+    right: 78%;
+}
+
+.footer {
+    background-color: #00669F;
+    text-align: center;
+    width: 100%;
+    color: #FFF9F9;
+    padding: 10px;
+    padding-left: 25px;
+    margin-top: 85%;
+    position: absolute;
+    bottom: -150%;
+    z-index: 9999;
+}
+
+@media screen and (max-width: 768px) {
+    .encabezado {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 150%;
+        top: 30%;
+        padding: 1%;
+    }
+
+    .seccion1 {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .items {
+        margin-left: 60%;
+        word-spacing: 10px;
+        font-size: 80%;
+    }
+
+    .cartas {
+        margin-left: 5%;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 40%;
+        margin: 2% auto;
+        display: block;
+    }
+
+    .batman,
+    .harley,
+    .mujermaravilla,
+    .superman {
+        width: 50%;
+        margin-top: -10%;
+    }
+
+    .corazon1,
+    .corazon2,
+    .corazon3,
+    .corazon4 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer {
+        margin-top: 50%;
+    }
+}
